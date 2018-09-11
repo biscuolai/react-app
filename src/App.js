@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Content from './components/Content'
+import Content from './components/Content';
+import Counter from './components/Counter';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <Content text='test new component'></Content>
+        <Counter />
       </div>
     );
   }
